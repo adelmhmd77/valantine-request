@@ -1,103 +1,89 @@
+
+
+# 💌 Valantine Request
+
+A simple, static Valentine's Day proposal web page built with HTML, CSS and JavaScript.
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![GitHub Pages](https://img.shields.io/badge/Hosted%20on-GitHub%20Pages-222?logo=github)
+
 <img width="1833" height="948" alt="image" src="https://github.com/user-attachments/assets/ed3452b5-3558-4eed-ac21-31a73b6fb061" />
 
+---
 
-=====================================================
- VALANTINE REQUEST
-=====================================================
+## Overview
 
-DESCRIPTION
------------
-A static Valentine's Day proposal web page titled
-"Will You Be My Valantine". It shows an animated GIF,
-the question "Will You Be My Valantine", and two
-buttons: "Yes" and "No". It is built with plain HTML,
-CSS and JavaScript and hosted on GitHub Pages.
+**Valantine Request** is a single-page website that asks the question **"Will You Be My Valantine"**. The page shows an animated GIF, the question, and two buttons: **Yes** and **No**. It is a small, static front-end project with no build step and no external dependencies.
 
+## Features
 
-FEATURES
---------
-- Single-page proposal with the heading
-  "Will You Be My Valantine"
-- Animated GIF shown above the question
-  (i-miss-you-bear-milk-and-mocha.gif)
-- "Yes" and "No" buttons (the "No" button has the
-  id "no", so JavaScript can target it)
-- A separate page, yes.html, in the repository
-- Responsive viewport meta tag
-- No build step or dependencies required
+- Centered proposal page with the heading "Will You Be My Valantine"
+- Animated GIF displayed above the question
+- **Yes** and **No** buttons (the No button has the id `no`)
+- Additional `yes.html` page included in the repository
+- Responsive viewport configuration
+- No build tools or dependencies required
 
-Exact behavior of the buttons (what "Yes" and "No"
-do when clicked): Not specified.
+## Technologies
 
+| Technology | Usage |
+| --- | --- |
+| HTML5 | Page structure (`index.html`, `yes.html`) |
+| CSS3 | Styling (`style.css`) |
+| JavaScript | Page scripting (`script.js`, loaded with `defer`) |
+| GitHub Pages | Hosting |
 
-TECHNOLOGIES USED
------------------
-- HTML5
-- CSS3 (style.css)
-- JavaScript (script.js, loaded with "defer")
-- GitHub Pages (hosting)
+## Getting Started
 
+### Prerequisites
 
-INSTALLATION / SETUP
---------------------
-No installation is required. It is a static site.
+- A modern web browser
+- Git (only if you want to clone the repository)
 
-1. Clone the repository:
-   git clone https://github.com/adelmhmd77/valantine-request.git
+### Installation
 
-2. Go into the project folder:
-   cd valantine-request
+```bash
+git clone https://github.com/adelmhmd77/valantine-request.git
+cd valantine-request
+```
 
-3. Open index.html in any modern web browser.
+### Usage
 
-Optional: serve it with a local static server, for
-example:
-   python -m http.server 8000
-then open http://localhost:8000
+Open `index.html` in your browser, or visit the [live demo](https://adelmhmd77.github.io/valantine-request/), then click **Yes** or **No**.
 
+## Project Structure
 
-USAGE
------
-1. Open the live website or the local index.html.
-2. Read the question "Will You Be My Valantine".
-3. Click "Yes" or "No".
-
-
-PROJECT STRUCTURE
------------------
+```text
 valantine-request/
-|-- index.html                          Main page
-|-- yes.html                            Additional page
-|-- style.css                           Styles
-|-- script.js                           Scripts
-|-- i-miss-you-bear-milk-and-mocha.gif  Main page GIF
-|-- killer.gif                          Additional GIF
-|-- README.md                           Repository readme
+├── index.html
+├── yes.html
+├── style.css
+├── script.js
+├── i-miss-you-bear-milk-and-mocha.gif
+├── killer.gif
+└── README.md
+```
 
+## Live Demo
 
-LIVE WEBSITE
-------------
-https://adelmhmd77.github.io/valantine-request/
+[Live Demo](https://adelmhmd77.github.io/valantine-request/)
 
+## Repository
 
-GITHUB REPOSITORY
------------------
-https://github.com/adelmhmd77/valantine-request
+[GitHub Repository](https://github.com/adelmhmd77/valantine-request)
 
+## License
 
-AUTHOR
-------
-adelmhmd77 (https://github.com/adelmhmd77)
+Not specified
 
+## Notes
 
-LICENSE
--------
-Not specified.
+- This is a static, front-end-only project. It has no backend, database or API.
+- The page title in the source is spelled "Be My Valantine Requeast", and the original spelling is kept.
+- The exact behavior of the Yes and No buttons: Not specified
 
+## Author
 
-NOTES
------
-- The page title in the source is
-  "Be My Valantine Requeast" (original spelling kept).
-- Repository stats at time of writing: 1 star,
-  0 forks, 2 commits on the main branch.
+[adelmhmd77](https://github.com/adelmhmd77)
